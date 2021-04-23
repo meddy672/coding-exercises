@@ -1,0 +1,13 @@
+.FizzBuzz{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: solid 1px black; */
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
