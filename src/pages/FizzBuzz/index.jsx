@@ -29,8 +29,8 @@ function FizzBuzz() {
 
 
   /**
-   * this function will check to see if there is a remainder between the arguments
-   * (dividend, div1, and div2) and if so sets the corresponding phrase.
+   * this function will check to see if there is a remainder between the dividend
+   * and the divisiors and if so initializes the correct phrase i.e FizzBuzz etc.
    */
   function fizzBuzz(dividend, divisorOne, divisorTwo, phraseOne, phraseTwo) {
     const div1 = divisorOne !== '' ? divisorOne : 3;
@@ -81,7 +81,7 @@ function FizzBuzz() {
         <FormControl type="text" name="phrase2" label="Phrase:" info="(Default Buzz)" />
         <button type="submit" className="btn btn-primary">Submit</button>
       </form>
-      <Results results={results} reverse styles={{display: 'inline', fontSize: '20px'}} />
+      <Results results={results} reverse  />
     </div>
   );
 }

@@ -37,7 +37,7 @@ function Fibonacci(props) {
     fibos[2] = 2;
     if (y !== '' && z !== '') {
       for (let i = 3; i < x; i++){
-        fibos[i] = fibos[x -y] + fibos[x + z]
+        fibos[i] = fibos[x -y] + fibos[x - z]
       }
     } else {
       for (let i = 3; i < x; i++){
