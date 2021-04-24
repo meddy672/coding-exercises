@@ -17,7 +17,7 @@ numbers divisble by 3 and 5.
 ### Fibonacci Challenge
 The Fibonacci is a sequence of numbers so that *F(n) = F(n-1)+F(n+2)* where *n* is the number in the sequence.
 For example: *F(6)=8* and the sequence *F(6)=1,1,2,3,5,8*. Write a program that accepts a user input,
-*x*, and outputs the sequence *F(x)
+*x*, and outputs the sequence *F(x)*
 
 * Additional Requirements(Complete what you can)
 1. Accept inputs for *y* and *z*, where *F(x)=F(x+y)+F(x-z)*. Like the original sequence, if *F(x-n)* does not exist yet in the sequence, simply output 1
