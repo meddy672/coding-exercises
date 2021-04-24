@@ -70,9 +70,9 @@ function Fibonacci(props) {
         <FormControl type="number" name="x" label="x:" info="(Required)" />
         <FormControl type="number" name="y" label="y:" info="(Optional)" />
         <FormControl type="number" name="z" label="z:" info="(Optional)" />
-        <button type="submit" className="btn btn-primary">Submit</button>
+        <button type="submit" className="btn">Submit</button>
       </form>
-      <Results results={results} reverse  />
+      <Results results={results}  />
     </div>
   );
 }

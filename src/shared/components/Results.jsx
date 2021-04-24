@@ -1,20 +1,20 @@
 import React from 'react';
 import './component.css';
 
-function Results({ results, reverse, styles }) {
+function Results({ results, reverse }) {
     return (
         reverse ? (
-            <ul>
+            <div className="result-container">
                 <label className="result-label">Results:</label> {results.reverse().map((result, index) => {
-                    return <li className="result-list" key={index}> {(index ? ', ' : '') +result}</li>
+                    return <span className="result-list" key={index}> {(index ? ', ' : '') +result}</span>
                 })}
-            </ul>
+            </div>
         ) : (
-            <ul>
+            <div className="result-container">
                 <label className="result-label">Results:</label>  {results.map((result, index) => {
-                  return <li className="result-list" key={index}> {(index ? ', ' : '') +result}</li>
+                  return <span className="result-list" key={index}> {(index ? ', ' : '') +result}</span>
               })}
-            </ul>
+            </div>
         )
     )
 }

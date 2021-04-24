@@ -6,3 +6,11 @@
     display: inline;
     font-size: 20px;
 }
+.result-container{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.form-group{
+    margin-top: 8px;
+}

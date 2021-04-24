@@ -75,11 +75,11 @@ function FizzBuzz() {
        will be used instead. Once you hit submit the output will appear below with the results.</p>
       <form onSubmit={prepareFormData}>
         <FormControl type="number" name="integer" label="Dividend:" info="(Required)" />
-        <FormControl type="number" min="1" name="divisor1" label="Divisor:" info="(Default 3)" />
-        <FormControl type="number" min="1" name="divisor2" label="Divisor:" info="(Default 5)" />
-        <FormControl type="text" name="phrase1" label="Phrase:" info="(Default Fizz)" />
-        <FormControl type="text" name="phrase2" label="Phrase:" info="(Default Buzz)" />
-        <button type="submit" className="btn btn-primary">Submit</button>
+        <FormControl type="number" min="1" name="divisor1" label="Divisor 1:" info="(Default 3)" />
+        <FormControl type="number" min="1" name="divisor2" label="Divisor 2:" info="(Default 5)" />
+        <FormControl type="text" name="phrase1" label="Phrase 1:" info="(Default Fizz)" />
+        <FormControl type="text" name="phrase2" label="Phrase 2:" info="(Default Buzz)" />
+        <button type="submit" className="btn">Submit</button>
       </form>
       <Results results={results} reverse  />
     </div>
