@@ -22,7 +22,14 @@ For example: *F(6)=8* and the sequence *F(6)=1,1,2,3,5,8*. Write a program that 
 * Additional Requirements(Complete what you can)
 1. Accept inputs for *y* and *z*, where *F(x)=F(x+y)+F(x-z)*. Like the original sequence, if *F(x-n)* does not exist yet in the sequence, simply output 1
 
-### FizzBuzz + Fibonacci
+### FizzBuzz + Fibonacci Challenge
+Given the first two challenges write a program that accepts the following inputs:
+1. The divisors for *fizz* and *buzz*, if left blank defaults to 3 and 5.
+2. The words *fizz* and *buzz*, if left blank defaults to *fizz* and *buzz*
+3. Input for *F(x)* sequence
+4. Input for *y* and *z* for *F(x) = F(x-y) + F(x-z)*, if the input is left blank uses *y = 1* and *z = 2*
+
+Using these inputs, display the sequence up to *F(x)*, expcept displaying your subsitute phrases for each *F(n)* in the sequence according to the divisors you set E.G using all defaults for input and *x = 6* would display *1,1 fizz, buzz*.
 
 ### How To Use
 1. Clone or download the repository.
