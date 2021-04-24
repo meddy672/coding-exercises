@@ -29,4 +29,4 @@ For example: *F(6)=8* and the sequence *F(6)=1,1,2,3,5,8*. Write a program that 
 2. Run *npm install*
 3. Run *npm start*
 
-The appliction starts on [localhost:3000](http://localhost:3000)
+The appliction should start on [localhost:3000](http://localhost:3000)
