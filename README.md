@@ -23,3 +23,10 @@ For example: *F(6)=8* and the sequence *F(6)=1,1,2,3,5,8*. Write a program that 
 1. Accept inputs for *y* and *z*, where *F(x)=F(x+y)+F(x-z)*. Like the original sequence, if *F(x-n)* does not exist yet in the sequence, simply output 1
 
 ### FizzBuzz + Fibonacci
+
+### How To Use
+1. Clone or download the repository.
+2. Run *npm install*
+3. Run *npm start*
+
+The appliction starts on [localhost:3000](http://localhost:3000)
