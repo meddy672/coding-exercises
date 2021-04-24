@@ -62,11 +62,11 @@ function FizzBuzz() {
       <p>
         Write a program that accepts an integer as an input and prodces an output for every integer from zero to the input integer.
        The program should display <i>fizz</i> for numbers divisble by 3, <i>buzz</i> for numbers divisble by 5, and <i>fizzbuzz</i> for
-      dividends divisble by 3 and 5.
+      numbers divisble by 3 and 5.
     </p>
       <h4>Additional Requirements(Complete what you can)</h4>
       <ol>
-        <li>Allow divisors to passed as arguments. If the dividend is divisble by the divisors, not 3 or 5, return correct phrase.</li>
+        <li>Allow divisors to passed as arguments. If the number is divisble by the divisors, not 3 or 5, return correct phrase.</li>
         <li>Allow the phrases to be passed as arguments. That is allow an input to be returned as a response instead of <i>fizz or buzz</i> </li>
       </ol>
       <h3>Solution</h3>

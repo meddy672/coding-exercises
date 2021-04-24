@@ -1,6 +1,6 @@
 # Overview
 The *Coding Challenges App* is a web application built with [React.js](https://reactjs.org/). The application consists of three main components where each component represents a coding challenge often required during an interviewing process. The initial page starts on the FizzBuzz challenge
-but a user can navigate and demo any challenge they choose.
+but a user can navigate to any challenge they choose.
 
 ### Required Software
 1. Node.js
@@ -8,10 +8,10 @@ but a user can navigate and demo any challenge they choose.
 ### FizzBuzz Challenge
 Write a program that accepts an integer as an input and prodces an output for every integer from zero to the input integer.
 The program should display *fizz* for numbers divisble by 3, *buzz* for numbers divisble by 5, and *fizzbuzz* for
-dividends divisble by 3 and 5.
+numbers divisble by 3 and 5.
 
 * Additional Requirements(Complete what you can)
-1. Allow divisors to passed as arguments. If the dividend is divisble by the divisors, not 3 or 5, return correct phrase.
+1. Allow divisors to passed as arguments. If the number is divisble by the divisors, not 3 or 5, return correct phrase.
 2. Allow the phrases to be passed as arguments. That is allow an input to be returned as a response instead of *fizz or buzz*
 
 ### Fibonacci Challenge
