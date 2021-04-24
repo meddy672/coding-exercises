@@ -5,8 +5,7 @@ import Content from '../shared/components/layout/Content';
 import Footer from '../shared/components/layout/Footer';
 import './App.css';
 
-function App(props) {
-  console.log(props)
+function App() {
   return (
     <div className="App">
       <Header title="Coding Challenge" />
