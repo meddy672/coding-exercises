@@ -15,6 +15,13 @@ function AppRoutes() {
   // Site Routes
   const routes = [
     {
+      path: '/',
+      exact: true,
+      render: () => (
+        <FizzBuzz content={staticContent.FizzBuzz} />
+      )
+    },
+    {
       path: '/fizzbuzz',
       exact: true,
       render: () => (
