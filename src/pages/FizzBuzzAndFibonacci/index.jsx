@@ -48,7 +48,7 @@ function FizzBuzzFibonacci({ content }) {
   }
 
   /**
-   * this function analyzes the array data from witin fibos and sets the correct phrase.
+   * this function analyzes the sequence of numbers witin fibos and sets the correct phrase.
    */
   function fizzbuzz(fibos, divisor1, divisor2, phrase1, phrase2) {
     console.log(fibos, divisor1, divisor2);
@@ -81,8 +81,8 @@ function FizzBuzzFibonacci({ content }) {
           </div>
           <div className="flex-group">
             <FormControl type="number" name="x" label="x:" info="(Required)" />
-            <FormControl type="text" name="y" label="y:" info="(Optional)" />
-            <FormControl type="text" name="z" label="z:" info="(Optional)" />
+            <FormControl type="number" name="y" label="y:" info="(Optional)" />
+            <FormControl type="number" name="z" label="z:" info="(Optional)" />
           </div>
         </div>
         <button type="submit" className="btn">Submit</button>

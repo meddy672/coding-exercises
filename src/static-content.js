@@ -33,7 +33,7 @@ const staticContent = {
            additional_requirements: 'Additional Requirements(Complete what you can)',
             list: [
                 'Accept inputs for <i>y</i> and <i>z,</i> where <i>F(x)=F(x+y)+F(x-z)</i>. Like the original sequence, if'+
-                '<i>F(x-n)</i> does not exist yet in the sequence, simply output 1',
+                '<i>F(x-n)</i> does not exist yet in the sequence, simply output 1.',
             ]
         },
         solution: {
@@ -60,7 +60,9 @@ const staticContent = {
         },
         solution: {
             title: 'Solution',
-            content: 'This is some test content for now unitl the solution is in place.'
+            content: 'To run this program you only need to supply the controlled variable <strong>x</strong>. If ' +
+                'you do not supply values for the other inputs they will use their default values. Once you hit ' +
+            'submit the results will appear below.'
         }
     }
  }

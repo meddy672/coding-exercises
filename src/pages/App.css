@@ -40,7 +40,12 @@
 }
 
 .App-header ul li a:hover {
-  color: #ccc;
+  color: #61DAFB;
+}
+
+.App-header ul li .active{
+  font-weight: bold;
+  color: #61DAFB;
 }
 
 @keyframes App-logo-spin {

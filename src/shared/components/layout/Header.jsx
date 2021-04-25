@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '../../images/logo.svg';
+
 
 
 // We created a component with a simple arrow function.
@@ -19,9 +20,9 @@ const Header = props => {
       <h1 className="App-title">{title}</h1>
 
       <ul>
-        <li><Link to="/fizzbuzz">Fizz Buzz</Link></li>
-        <li><Link to="/fibonacci">Fibonacci</Link></li>
-        <li><Link to="/fibonacci-fizzbuzz">Fizz Buzz + Fibonacci</Link></li>
+        <li><NavLink activeClassName="active" to="/fizzbuzz">Fizz Buzz</NavLink></li>
+        <li><NavLink activeClassName="active" to="/fibonacci">Fibonacci</NavLink></li>
+        <li><NavLink activeClassName="active" to="/fibonacci-fizzbuzz">Fizz Buzz + Fibonacci</NavLink></li>
       </ul>
     </header>
   );
