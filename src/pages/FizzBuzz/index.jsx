@@ -10,6 +10,7 @@ import './index.css';
  */
 function FizzBuzz({ content }) {
   
+  const {pageTitle, challenge, solution} = content;
   const [results, setResults] = useState([]);
 
   /**
@@ -18,7 +19,7 @@ function FizzBuzz({ content }) {
    */
   function prepareDataForAnalysis(e) {
     e.preventDefault();
-    let dividend = e.target.integer.value;
+    const dividend = e.target.integer.value;
     const divisor1 = e.target.divisor1.value !== '' ? e.target.divisor1.value : 3;
     const divisor2 = e.target.divisor2.value !== '' ? e.target.divisor2.value : 5;
     const phrase1 =  e.target.phrase1.value  !== '' ? e.target.phrase1.value : 'fizz';
@@ -32,26 +33,26 @@ function FizzBuzz({ content }) {
    */
   function fizzBuzz(dividend, divisor1, divisor2, phrase1, phrase2) {
     const results = [];
-    while (dividend > -1) {
+    while (dividend > -1) { // zero value
       let output = `${dividend}`;
       if ((dividend % divisor1) === 0) {
-        output = phrase1;
+        output = phrase1; // fizz
       }
       if ((dividend % divisor2) === 0) {
-        output = phrase2;
+        output = phrase2; // buzz
       }
       if ((dividend % divisor1) === 0 && (dividend % divisor2) === 0) {
-        output = phrase1 + phrase2;
+        output = phrase1 + phrase2; // fizzbuzz
       }
       results.push(output);
       dividend--;
-    }
+    } // end of while
     setResults(results);
   }
 
   return (
     <div className="FizzBuzz">
-    <PageContent pageTitle={content.pageTitle} challenge={content.challenge} solution={content.solution} />
+    <PageContent pageTitle={pageTitle} challenge={challenge} solution={solution} />
       <form onSubmit={prepareDataForAnalysis}>
         <FormControl type="number" name="integer" label="Dividend:" info="(Required)" />
         <FormControl type="number" min="1" name="divisor1" label="Divisor 1:" info="(Default 3)" />

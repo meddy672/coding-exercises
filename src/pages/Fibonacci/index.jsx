@@ -10,6 +10,7 @@ import './index.css';
  */
 function Fibonacci({ content }) {
   
+  const {pageTitle, challenge, solution} = content;
   const [results, setResults] = useState([]);
 
   /**
@@ -31,7 +32,7 @@ function Fibonacci({ content }) {
    * which is F(n) = F(n -1) + F(n - 2).
    */
   function fibonacciPlus(x, y, z) {
-    let fibos = [];
+    const fibos = [];
     fibos[0] = 1;
     fibos[1] = 1;
     fibos[2] = 2;
@@ -50,7 +51,7 @@ function Fibonacci({ content }) {
 
   return (
     <div className="Fibonacci">
-      <PageContent pageTitle={content.pageTitle} challenge={content.challenge} solution={content.solution} />
+      <PageContent pageTitle={pageTitle} challenge={challenge} solution={solution} />
       <form onSubmit={prepareDataForAnalysis}>
         <FormControl type="number" name="x" label="x:" info="(Required)" />
         <FormControl type="number" name="y" label="y:" info="(Optional)" />

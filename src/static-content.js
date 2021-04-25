@@ -54,7 +54,7 @@ const staticContent = {
                 'Input for <i>F(x)</i> sequence',
                 'Input for <i>y</i> and <i>z</i> for <i>F(x) = F(x-y) + F(x-z)</i>, if the input is left blank uses <i>y = 1</i> and <i>z = 2</i>'
             ],
-            additional_content: 'Using these inputs, display the sequence up to <i>F(x)</i>, expcept displaying' +
+            additional_content: 'Using these inputs, display the sequence up to <i>F(x)</i>, expcept displaying ' +
                 'your subsitute phrases for each <i>F(n)</i> in the sequence according to the divisors you set ' +
             'E.G using all defaults for input and <i>x = 6</i> would display <i>1,1 fizz, buzz</i>.'
         },
