@@ -6,7 +6,7 @@ const staticContent = {
         pageTitle: 'Fizz Buzz Challenge',
         challenge: {
             title: 'Challenge',
-            content: 'Write a program that accepts an integer as an input and prodces an output for every integer from zero to the input integer.' +
+            content: 'Write a program that accepts an integer as an input and prodces an output for every integer from <strong>zero</strong> to the input integer.' +
                 'The program should display <i>fizz</i> for numbers divisble by 3, <i>buzz</i> for numbers divisble by 5, and <i>fizzbuzz</i> for' +
                 'numbers divisble by 3 and 5.',
             additional_requirements: 'Additional Requirements(Complete what you can)',
@@ -55,7 +55,7 @@ const staticContent = {
                 'Input for <i>y</i> and <i>z</i> for <i>F(x) = F(x-y) + F(x-z)</i>, if the input is left blank uses <i>y = 1</i> and <i>z = 2</i>'
             ],
             additional_content: 'Using these inputs, display the sequence up to <i>F(x)</i>, expcept displaying' +
-                'your subsitute phrases for each <i>F(n)</i> in the sequence according to the divisors you set' +
+                'your subsitute phrases for each <i>F(n)</i> in the sequence according to the divisors you set ' +
             'E.G using all defaults for input and <i>x = 6</i> would display <i>1,1 fizz, buzz</i>.'
         },
         solution: {

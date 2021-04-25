@@ -25,7 +25,7 @@ function Fibonacci({ content }) {
   }
 
   /**
-   * the function returns two different sequences:
+   * this function returns two different sequences:
    * If the y and z values are defined F(x) = F(x - y) + F(x - z)
    * If y and z are not defined it will perform the regular Fibonacci sequence
    * which is F(n) = F(n -1) + F(n - 2).

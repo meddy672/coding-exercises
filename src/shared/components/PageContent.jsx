@@ -8,9 +8,9 @@ function PageContent({pageTitle, challenge, solution}) {
 
     return (
         <div className="PageContent">
-            <h1>{ pageTitle}</h1>
+            <h1>{pageTitle}</h1>
             <hr />
-            <h3>{challenge.title }</h3>
+            <h3>{challenge.title}</h3>
             <p>{ ReactHtmlParser(challenge.content)}</p>
             {challenge.additional_requirements ? (<h4>{challenge.additional_requirements}</h4>) : (<div></div>)}
             <ol>
@@ -18,8 +18,8 @@ function PageContent({pageTitle, challenge, solution}) {
                     return <li key={index}>{ ReactHtmlParser(item)}</li>
                 }))}
             </ol>
-            {challenge.additional_content ? (<p>{ ReactHtmlParser(challenge.additional_content) }</p>) : (<div></div>)}
-            <h3>{ solution.title}</h3>
+            {challenge.additional_content ? (<p>{ReactHtmlParser(challenge.additional_content)}</p>) : (<div></div>)}
+            <h3>{solution.title}</h3>
             <p>{ReactHtmlParser(solution.content)}</p>
         </div>
     )

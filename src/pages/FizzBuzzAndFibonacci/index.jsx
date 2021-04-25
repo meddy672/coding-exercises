@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import PageContent from '../../shared/components/PageContent';
 import Results from '../../shared/components/Results';
@@ -6,11 +6,33 @@ import FormControl from '../../shared/components/FormControl';
 
 import './index.css';
 
+/**
+ * this is the main component for the FizzBuzzFibonacci challenge
+ */
 function FizzBuzzFibonacci({ content }) {
+
+  const [results, setResults] = useState([]);
+
+  /**
+   * this function prepares data submitted by the form for the 
+   * fizzBuzzFibonacciPlus function
+   */
+  function prepareDataForAnalysis(e) {
+    
+  }
+
+  /**
+   * this function analyzes the data submitted by the form and sets the 
+   * appropriate response.
+   */
+  function fizzBuzzFibonacciPlus() {
+    
+  }
+
   return (
     <div className="FizzBuzzFibonacci">
       <PageContent pageTitle={content.pageTitle} challenge={content.challenge} solution={content.solution} />
-      <form>
+      <form onSubmit={prepareDataForAnalysis}>
         <div className="flex-container">
           <div className="flex-group">
             <FormControl type="number" name="integer" label="Dividend:" info="(Required)" />

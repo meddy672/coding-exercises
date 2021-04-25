@@ -12,6 +12,7 @@ import Error404 from './pages/Error/404';
 
 function AppRoutes() {
 
+  // Site Routes
   const routes = [
     {
       path: '/fizzbuzz',
