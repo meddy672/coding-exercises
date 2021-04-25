@@ -1,31 +1,39 @@
 // Dependencies
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-
+import { staticContent } from './static-content';
 
 // Components
 import App from './pages/App';
 import Fibonacci from './pages/Fibonacci';
-import Contact from './pages/FizzBuzzAndFibonacci';
 import FizzBuzz from './pages/FizzBuzz';
+import FizzBuzzFibonacci from './pages/FizzBuzzAndFibonacci';
 import Error404 from './pages/Error/404';
 
 function AppRoutes() {
+
   const routes = [
     {
       path: '/fizzbuzz',
-      component: FizzBuzz,
-      exact: true
+      exact: true,
+      render: () => (
+        <FizzBuzz content={staticContent.FizzBuzz} />
+      )
     },
     {
       path: '/fibonacci',
-      component: Fibonacci,
-      exact: true
+      exact: true,
+      render: () => (
+        <Fibonacci content={staticContent.Fibonacci} />
+      )
+      
     },
     {
       path: '/fibonacci-fizzbuzz',
-      component: Contact,
-      exact: true
+      exact: true,
+      render: () => (
+        <FizzBuzzFibonacci content={staticContent.FibonacciAndFizzBuzz} />
+      )
     },
     {
       component: Error404

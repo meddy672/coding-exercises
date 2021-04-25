@@ -1,6 +1,9 @@
 import React from 'react';
 import './component.css';
 
+/**
+ * this component will display the results after executing solution to a challenge
+ */
 function Results({ results, reverse }) {
     return (
         reverse ? (
