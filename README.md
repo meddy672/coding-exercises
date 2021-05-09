@@ -2,6 +2,9 @@
 The *Coding Challenges App* is a web application built with [React.js](https://reactjs.org/). The application consists of three main components where each component represents a coding challenge often required during the interviewing process. The initial page starts on the FizzBuzz challenge
 but a user can navigate to any challenge they choose.
 
+### Demo
+See the [Demo](http://meddy672-interview-coding-challenge.s3-website-us-east-1.amazonaws.com/)
+
 ### Required Software
 1. Node.js
 
