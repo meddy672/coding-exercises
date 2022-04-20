@@ -11,7 +11,7 @@ See the [Demo](http://meddy672-interview-coding-challenge.s3-website-us-east-1.a
 ### FizzBuzz Challenge
 Write a program that accepts an integer as an input and prodces an output for every integer from zero to the input integer.
 The program should display *fizz* for numbers divisble by 3, *buzz* for numbers divisble by 5, and *fizzbuzz* for
-numbers divisble by 3 and 5.
+numbers divisble by 3 and 5. 
 
 * Additional Requirements(Complete what you can)
 1. Allow divisors to passed as arguments. If the number is divisble by the divisors, not 3 or 5, return correct phrase.
